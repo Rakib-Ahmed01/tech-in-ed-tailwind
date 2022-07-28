@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .btn {
+    @apply bg-sky-500 text-white font-semibold px-3 py-2 rounded hover:text-sky-500 hover:bg-white border-2 border-sky-500 transition-all duration-300 ease-in-out shadow-sm shadow-sky-400/30;
+  }
+  .btn-white {
+    @apply text-sky-500 bg-white font-semibold px-3 py-2 rounded hover:bg-sky-500 hover:text-white border-2 border-sky-500 transition-all duration-300 ease-in-out shadow-sm shadow-sky-300/20;
+  }
+}
+
+.banner .container .carousel {
+  background: black;
+  overflow: hidden;
+}
+
+.banner .container .carousel img {
+  object-fit: cover;
+  opacity: 0.7;
+}
